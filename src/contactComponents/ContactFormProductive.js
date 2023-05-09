@@ -1,10 +1,10 @@
 import React from 'react'
-import "../css/ContactUs.scss"
+import "./scss/ContactFormProductive.scss"
 import building from "../assets/building.png"
-const ContactUs = () => {
+const ContactFormProductive = () => {
   return (
-<>
-<div className="bg-contact">
+   <>
+   <div className="bg-contact">
 <section className='contact container'>
   <div className="contact-form ">
     <h1 className=''>Contact <span>us</span></h1>
@@ -14,7 +14,7 @@ const ContactUs = () => {
         <input type="" placeholder='email' required />
         <input type="" placeholder='write a subject' required />
         <textarea name="" id="" cols="30" rows="10" placeholder='Your message' required></textarea>
-        <input type="sumbit" name='' value="Submit" className='btn btn-simision' />
+        <input type="sumbit" name='' value="Submit" className='btn' />
     </form>
   </div>
   {/* //// */}
@@ -23,8 +23,8 @@ const ContactUs = () => {
   </div>
 </section>
 </div>
-</>
+   </>
   )
 }
 
-export default ContactUs
+export default ContactFormProductive

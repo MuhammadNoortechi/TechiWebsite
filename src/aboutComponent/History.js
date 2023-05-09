@@ -21,7 +21,7 @@ const History = () => {
         </div>
   
     </div>
-    <p class="col col-complementary" role="complementary">
+    <p className="col col-complementary" role="complementary">
      <img src="https://s40424.pcdn.co/in/wp-content/uploads/2022/03/What-is-Business-Strategy.jpg.optimal.jpg" alt=""  className='w-100'/>
     </p>  
   </div>   

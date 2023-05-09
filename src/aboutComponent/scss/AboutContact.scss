@@ -8,22 +8,15 @@
     color: var(--primary-color);
 }
 .btn-about-contact{
-    background: var(--primary-color);
-    outline: none;
-    border: none;
-    color:white;
-    padding: 7px 20px;
-    letter-spacing: 1px;
-  transition: 0.6s ease-in-out;
-    
+    background: transparent;
+    border: 2px solid var(--primary-color);
+    color: white;
+    transition: 0.5s;
 }
 .btn-about-contact:hover{
-    background: transparent;
-    outline: none;
-    border: 3px solid var(--primary-color);
-    color:white;
+    background: var(--primary-color);
+    color: white;
 }
-
 ////
 /// 
 .kkkk {

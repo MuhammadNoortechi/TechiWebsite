@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { BiMenuAltRight } from "react-icons/bi";
 import { AiOutlineClose } from "react-icons/ai";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import techilab from "./assets/techilab.png"
 import "./Header.scss";
 
 function Header() {
-  const navigate = useNavigate();
+
   const [menuOpen, setMenuOpen] = useState(false);
   const [color,setColor]=useState(false)
   const [size, setSize] = useState({

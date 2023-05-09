@@ -11,7 +11,7 @@
     letter-spacing: 3px;
 }
 .lettalk{
-    background: var(--primary-color);
+    border: 2px solid var(--primary-color);
     transition: 0.8s ease-in-out;
      
 }
@@ -23,6 +23,6 @@
    
 }
 .lettalk:hover{
-    border:2px solid var(--primary-color);
-    background: transparent;
+    background: var(--primary-color);
+  
 }

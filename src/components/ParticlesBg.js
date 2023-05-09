@@ -1,7 +1,8 @@
 import React from "react";
 import Particles from "react-tsparticles";
-import { tsParticles } from "https://cdn.jsdelivr.net/npm/tsparticles-engine/+esm";
-import { loadFull } from "https://cdn.jsdelivr.net/npm/tsparticles/+esm";
+
+import { loadFull } from "tsparticles";
+
 import "../css/ParticlesBg.css";
 const ParticlesBg = () => {
   const particlesInit = async (main) => {

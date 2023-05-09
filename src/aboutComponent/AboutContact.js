@@ -15,7 +15,7 @@ const AboutContact = () => {
         <div className='p-about pt-4'>Stop worrying about technology problems. Focus on your business.Let us  <br /> provide the support you deserve.</div>
        <div className="btn-start d-flex justify-content-center mt-4">
        <Link>
-           <button className='rounded btn-about-contact fs-5 fw-bold'>Contact Us </button>
+           <button className='rounded btn btn-about-contact fs-5 fw-bold  '>Contact Us </button>
         </Link>
        </div>
     </div>
